@@ -1,0 +1,41 @@
+/* .container {
+    height: 300px;
+    width: 300px;
+    background-color: goldenrod;
+} */
+.box {
+    height: 100px;
+    width: 100px;
+}
+.box1 {
+    background-color: red;
+    position: static;
+    left: 100px;
+}
+.box2 {
+    background-color: yellow;
+    position: relative;
+    left: 200px;
+    top: 400px;
+} 
+.box3 {
+    background-color: blue;
+    position: sticky;
+    left: 300px;
+}
+.box4 {
+    background-color: pink;
+    position: fixed;
+    left: 0;
+}
+.box5 {
+    background-color: green;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    right: 200px;
+}
+p {
+    height: 500px;
+    width: 800px;
+}
